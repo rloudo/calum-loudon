@@ -29,7 +29,12 @@ p {
 
 @tailwind components;
 
-a {
+.nav {
+	font-family: 'IBM Plex Mono', monospace;
+	@apply text-base text-mine-shaft-500;
+}
+
+.hyperlink {
 	@apply text-picton-blue-500 underline;
 	
 }
