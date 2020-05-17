@@ -2,16 +2,23 @@
 
 html {
 	@apply bg-snow-drift-500 text-mine-shaft-500;
+	font-family: 'IBM Plex Mono', monospace;
 }
 
 .figure {
 	font-family: 'IBM Plex Mono', monospace;
-	font-variant-caps: all-petite-caps; 
+	font-variant-caps: all-petite-caps;
+	letter-spacing: 1px;
 	@apply text-sm text-snow-drift-700; 
 }
 
 h1 {
 	@apply text-4xl font-bold;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	@apply text-xl text-mine-shaft-400;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -24,6 +31,7 @@ p {
 
 a {
 	@apply text-picton-blue-500 underline;
+	
 }
 
 .rocket {
