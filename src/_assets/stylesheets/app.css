@@ -1,8 +1,29 @@
 @tailwind base;
+
+html {
+	@apply bg-snow-drift-500 text-mine-shaft-500;
+}
+
+.figure {
+	font-family: 'IBM Plex Mono', monospace;
+	font-variant-caps: all-petite-caps; 
+	@apply text-sm text-snow-drift-700; 
+}
+
+h1 {
+	@apply text-4xl font-bold;
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	@apply text-mine-shaft-400;
+}
+
 @tailwind components;
 
 a {
-	@apply text-ws-blue-500 underline;
+	@apply text-picton-blue-500 underline;
 }
 
 .rocket {
