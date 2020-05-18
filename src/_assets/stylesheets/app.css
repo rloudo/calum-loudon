@@ -13,7 +13,7 @@ html {
 }
 
 h1 {
-	@apply text-4xl font-bold;
+	@apply text-xl font-bold;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -30,8 +30,8 @@ p {
 @tailwind components;
 
 .nav {
-	font-family: 'IBM Plex Mono', monospace;
-	@apply text-base text-mine-shaft-500;
+	font-family: 'Montserrat', sans-serif;
+	@apply text-base font-bold text-mine-shaft-500;
 }
 
 .hyperlink {
