@@ -30,8 +30,8 @@ p {
 @tailwind components;
 
 .nav {
-	font-family: 'Montserrat', sans-serif;
-	@apply text-base font-bold text-mine-shaft-500;
+	font-family: 'IBM Plex Mono', monospace;
+	@apply text-sm font-normal text-mine-shaft-500;
 }
 
 .hyperlink {
